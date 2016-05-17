@@ -14,11 +14,15 @@ class foodItem:
 #print a.s
 #print a.t
 
+types = [Meats, Fishes, Vegetables, Fruits, Monster Food, Eggs, Sweeteners, Dairy]
+
 item1 = foodItem('Wet Goop', 0,0,0,'Not valid',0)
 item2 = foodItem('Cooked Green Cap',  -1, 0,15,'Vegetables',0.5)
 item3 = foodItem('Rot',  -1, -10, 0,'Not valid',0)
 item4 = foodItem('Rotten Egg',  -1, -10, 0,'Not valid',0)
 item5 = foodItem('Monster Meat',  -20,18.75, -15,'Meats',1)
+
+#TODO replace all this with a big list 
 
 nameStack = [item1.name, item2.name, item3.name, item4.name, item5.name]
 itemStack = [item1, item2, item3, item4, item5]
